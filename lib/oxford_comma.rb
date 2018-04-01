@@ -3,5 +3,10 @@ def oxford_comma(array)
     array.join
   elsif array.size == 2
     array.join(" and ")
+  else
+    string = ""
+    array.each do |word|
+      if word.
+    end
   end
 end
