@@ -8,5 +8,6 @@ def oxford_comma(array)
     array.each do |word|
       if array.find_index(word) == array.size - 1 ? string += "and #{word}" : string += "#{word}, "
     end
+    string
   end
 end
